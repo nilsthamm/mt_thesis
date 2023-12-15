@@ -1,0 +1,11 @@
+set(
+        SOURCES_PEAR
+            ${PROJECT_SOURCE_DIR}/src/pear/background_persister.hpp
+            ${PROJECT_SOURCE_DIR}/src/pear/node.hpp
+            ${PROJECT_SOURCE_DIR}/src/pear/node_cache.hpp
+            ${PROJECT_SOURCE_DIR}/src/pear/p_node.hpp
+            ${PROJECT_SOURCE_DIR}/src/pear/parent_node.hpp
+            ${PROJECT_SOURCE_DIR}/src/pear/pear_tree.hpp
+            ${PROJECT_SOURCE_DIR}/src/pear/pear_recoverer.hpp
+            ${PROJECT_SOURCE_DIR}/src/pear/v_node.hpp
+        PARENT_SCOPE)
